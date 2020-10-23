@@ -1,0 +1,47 @@
+{
+    "GroupStudent": {
+        "id": 0,
+        "name_group": "string",
+        "url_group": "string",
+        "first_week": [
+            {
+                "id": 0,
+                "group_id": 0,
+                "number_day": 0,
+                "number_week": 0,
+                "coupels": [
+                    {
+                        "id": 0,
+                        "day_id": 0,
+                        "pair_number": 0,
+                        "teacher": "string",
+                        "subject": "string",
+                        "subgroup": "string",
+                        "place": "string",
+                        "typeSubject": "string"
+                    }
+                ]
+            }
+        ],
+        "second_week": [
+            {
+                "id": 0,
+                "group_id": 0,
+                "number_day": 0,
+                "number_week": 0,
+                "coupels": [
+                    {
+                        "id": 0,
+                        "day_id": 0,
+                        "pair_number": 0,
+                        "teacher": "string",
+                        "subject": "string",
+                        "subgroup": "string",
+                        "place": "string",
+                        "typeSubject": "string"
+                    }
+                ]
+            }
+        ]
+    }
+}
