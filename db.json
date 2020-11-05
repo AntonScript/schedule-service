@@ -1,119 +1,87 @@
 {
     "GroupStudent": {
-        "id": 0,
-        "name_group": "ИВТАПбд-31",
-        "url_group": "https://www.ulstu.ru/schedule/students/part1/55.html",
-        "first_week": [
-            {
-                "id": 0,
-                "group_id": 0,
-                "number_day": 1,
-                "number_week": 1,
-                "coupels": [
-                    {
-                        "id": 0,
-                        "day_id": 0,
-                        "pair_number": 1,
-                        "teacher": "Игонин А Г",
-                        "subject": "Основы Автоматики",
-                        "subgroup": "2",
-                        "place": "3-306",
-                        "typeSubject": "лаб"
-                    },
-                    {
-                        "id": 1,
-                        "day_id": 0,
-                        "pair_number": 2,
-                        "teacher": "Лылова А В",
-                        "subject": "ОЭВМ",
-                        "subgroup": "",
-                        "place": "3-312",
-                        "typeSubject": "пр"
-                    },{
-                        "id": 2,
-                        "day_id": 0,
-                        "pair_number": 4,
-                        "teacher": "Горшков Д С",
-                        "subject": "Исследования Операций",
-                        "subgroup": "1",
-                        "place": "3-309",
-                        "typeSubject": ""
-                    }
-                ]
-            },
-                "id": 1,
-                "group_id": 0,
-                "number_day": 3,
-                "number_week": 1,
-                "coupels": [
-                    {
-                        "id": 0,
-                        "day_id": 0,
-                        "pair_number": 1,
-                        "teacher": "Игонин А Г",
-                        "subject": "Основы Автоматики",
-                        "subgroup": "1",
-                        "place": "3-306",
-                        "typeSubject": "лаб"
-                    }
-                ]
-            }
-        ],
-        "second_week": [
-            {
-                "id": 0,
-                "group_id": 0,
-                "number_day": 1,
-                "number_week": 1,
-                "coupels": [
-                    {
-                        "id": 0,
-                        "day_id": 0,
-                        "pair_number": 1,
-                        "teacher": "Игонин А Г",
-                        "subject": "Основы Автоматики",
-                        "subgroup": "2",
-                        "place": "3-306",
-                        "typeSubject": "лаб"
-                    },
-                    {
-                        "id": 1,
-                        "day_id": 0,
-                        "pair_number": 2,
-                        "teacher": "Лылова А В",
-                        "subject": "ОЭВМ",
-                        "subgroup": "",
-                        "place": "3-312",
-                        "typeSubject": "пр"
-                    },{
-                        "id": 2,
-                        "day_id": 0,
-                        "pair_number": 4,
-                        "teacher": "Горшков Д С",
-                        "subject": "Исследования Операций",
-                        "subgroup": "1",
-                        "place": "3-309",
-                        "typeSubject": ""
-                    }
-                ]
-            },
-                "id": 1,
-                "group_id": 0,
-                "number_day": 3,
-                "number_week": 1,
-                "coupels": [
-                    {
-                        "id": 0,
-                        "day_id": 0,
-                        "pair_number": 1,
-                        "teacher": "Игонин А Г",
-                        "subject": "Основы Автоматики",
-                        "subgroup": "1",
-                        "place": "3-306",
-                        "typeSubject": "лаб"
-                    }
-                ]
-            }
-        ]
+        {
+    "id": 0,
+    "nameGroup": "ИВТАПбд-31",
+    "url_group": "https://www.ulstu.ru/schedule/students/part1/55.html",
+    "firstWeek": [
+        {
+            "id": 0,
+            "number_day": 1,
+            "group_id": 0,
+            "numberWeek": 1,
+            "coupels": [
+                {
+                    "id": 1,
+                    "day_id": 0,
+                    "pair_number": 1,
+                    "teacher": "Горшков Д А",
+                    "subject": "Исследов. операция",
+                    "subgroup": "1",
+                    "place": "4-Д О Т",
+                    "typeSubject": ""
+                },
+                {
+                    "id": 2,
+                    "day_id": 0,
+                    "pair_number": 3,
+                    "teacher": "Игонин А Г",
+                    "subject": "Основы Автоматики",
+                    "subgroup": "",
+                    "place": "3-307",
+                    "typeSubject": "Пр"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "number_day": 5,
+            "group_id": 0,
+            "numberWeek": 1,
+            "coupels": [
+                {
+                    "id": 3,
+                    "day_id": 2,
+                    "pair_number": 2,
+                    "teacher": "Преподователи кафедры физры",
+                    "subject": "Физкульрура",
+                    "subgroup": "",
+                    "place": "2-физра",
+                    "typeSubject": "Лек"
+                },
+                {
+                    "id": 4,
+                    "day_id": 3,
+                    "pair_number": 3,
+                    "teacher": "Валюх В В",
+                    "subject": "Сред. элек. обучения",
+                    "subgroup": "2",
+                    "place": "3-312",
+                    "typeSubject": "Лец"
+                }
+            ]
+        }
+    ],
+    "secondWeek": [
+        {
+            "id": 4,
+            "number_day": 2,
+            "group_id": 0,
+            "numberWeek": 2,
+            "coupels": [
+                {
+                    "id": 5,
+                    "day_id": 4,
+                    "pair_number": 2,
+                    "teacher": "Валюх В В",
+                    "subject": "Сред. элек. обучения",
+                    "subgroup": "1",
+                    "place": "3-308",
+                    "typeSubject": "Пр"
+                }
+            ]
+        }
+    ]
+}
     }
 }
